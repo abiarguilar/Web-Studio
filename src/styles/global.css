@@ -1,0 +1,59 @@
+/* Animaciones base */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --primary-dark: #0f172a;
+  --primary: #2563eb;
+  --accent: #38bdf8;
+  --bg-light: #f8fafc;
+  --text-dark: #0f172a;
+}
+
+button,
+.cta-button {
+  position: relative;
+}
+
+button:hover,
+.cta-button:hover {
+  box-shadow:
+    0 0 20px rgba(56, 189, 248, 0.4),
+    0 0 40px rgba(56, 189, 248, 0.2);
+}
+
+body {
+  background-color: rgba(56, 189, 248, 0.2);
+  color: #0f172a;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
