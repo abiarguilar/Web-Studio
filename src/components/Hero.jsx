@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="hidden md:block">
           <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden"></div>
           <img
-            src="/public/hero.webp"
+            src="/hero.webp"
             alt="Landing profesional"
             className="w-full object-cover hover:scale-105 transition"
           />

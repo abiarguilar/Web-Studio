@@ -11,7 +11,7 @@ export default function DemoCaptacion() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-35"
         >
-          <source src="/public/136267-764387684_small.mp4" type="video/mp4" />
+          <source src="/136267-764387684_small.mp4" type="video/mp4" />
         </video>
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black" />
@@ -105,7 +105,7 @@ export default function DemoCaptacion() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-28 items-center">
 
           <img
-            src="/public/demo-servicios.png"
+            src="/demo-servicios.png"
             alt="Proceso estratégico"
             className="rounded-2xl shadow-[0_30px_80px_rgba(0,0,0,0.7)]"
           />

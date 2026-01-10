@@ -5,7 +5,7 @@ export default function Ejemplos() {
     {
       title: "Pagina para servicios",
       desc: "Más consultas desde WhatsApp y formularios.",
-      img: "/public/mockup.webp",
+      img: "/mockup.webp",
       path: "/demo-servicios",
     },
     {
@@ -17,7 +17,7 @@ export default function Ejemplos() {
     {
       title: "Pagina de captación",
       desc: "Ideal para anuncios y generación de leads.",
-      img: "/public/captacion.jpg",
+      img: "/captacion.jpg",
       path: "/demo-captacion",
     },
   ];

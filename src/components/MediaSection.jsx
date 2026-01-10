@@ -9,7 +9,7 @@ export default function MediaSection() {
         loop
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
-        src="/public/hero-video.mp4"
+        src="/hero-video.mp4"
       />
 
       {/* Overlay */}
