@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import MediaSection from "./components/MediaSection";
 import SocialProof from "./components/SocialProof";
 import ResultsSection from "./components/ResultsSection";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -42,6 +42,8 @@ export default function App() {
         <Route path="/demo-producto" element={<DemoProducto />} />
         <Route path="/demo-captacion" element={<DemoCaptacion />} />
       </Routes>
+
+      <SpeedInsights />
     </>
   );
 }
